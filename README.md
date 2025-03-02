@@ -14,7 +14,7 @@
 
 ## 방법론
 ### 1. 모델링
-![image]()
+![image](https://github.com/user-attachments/assets/bd245bb7-f48c-475a-8284-fc3e153d82e5)
 - [One-DM](https://github.com/dailenson/One-DM/) 모델을 베이스로 사용하였음
     - 기존에는 영어 단어를 단위로 입력 및 출력을 수행하였는데, 한글 음절을 단위로 동작하도록 수정
     - Input Text: 생성하려는 텍스트. 기존에는 영어 단어의 각 알파벳의 폰트 이미지를 이어붙여 입력으로 사용 → 한글 음절의 폰트 이미지를 사용하도록 변경, 폰트는 Pretendard 사용
@@ -53,7 +53,7 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 - 터미널에서 위의 두 링크 중 아무거나 접속 한 뒤
 - Do you want code to open the external website 경고창이 뜨면 OK 클릭
 - 브라우저에서 아래와 같은 창이 뜨면 손글씨 style 이미지 한 장과 text 입력하여 데모 사용 가능
-![image]()
+![image](https://github.com/user-attachments/assets/99a44fec-555f-4d32-b736-9881071cb088)
 
 
 ### 2. 터미널에서 bash 파일로 실행하는 경우
@@ -74,10 +74,9 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 - 결과 분석
     - Input Text: 모서리에 부딪힌 나는 아이쿠 아파라 라고 말했다
     - Input Style:
-      ![image]() 
-        
+      ![image](https://github.com/user-attachments/assets/303980db-fe2c-4a4b-a5da-897fa4d22246) 
     - 출력:
-      ![image]()
+      ![image](https://github.com/user-attachments/assets/055fc4ed-6baf-4b4a-9f26-7226e340eea3)
         
     - 각 음절별로 따로 forward 한 뒤 결과 이미지(128*128)를 이어 붙임
     - 공백(띄어쓰기)은 (128*64)의 흰색 이미지를 따로 만들어서 이어 붙임
