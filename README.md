@@ -28,10 +28,10 @@ Pre-training 이후 fine-tuning 순으로 이어짐. 원본 코드는 두 과정
 
 데이터셋은 annotator 68명 + 각 annoator당 한글 음절 손글씨 이미지 약 1만 장 정도로 구성
 
-- Pre-training 1: Train에 annotator 0~4, test에 5~6
-- Fine-tuning 1: Pre-training 1 + Train에 0~4, test에 5~6 → 결과가 안 좋아져서 폐기
-- Fine-tuning 2: Pre-training 1 + Train에 7~11, test에 12~13 → 결과가 안 좋아져서 폐기
-- Pre-training 2: Train에 annotator 0~11, test에 12~13
+- Pre-training 1: Train에 annotator 0-4, test에 5-6
+- Fine-tuning 1: Pre-training 1 + Train에 0-4, test에 5-6 → 결과가 안 좋아져서 폐기
+- Fine-tuning 2: Pre-training 1 + Train에 7-11, test에 12-13 → 결과가 안 좋아져서 폐기
+- Pre-training 2: Train에 annotator 0-11, test에 12-13
 
 ## 환경 설정
 git clone 이후 아래 코드를 실행하여 dependency들을 설치
