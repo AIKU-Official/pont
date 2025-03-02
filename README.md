@@ -87,6 +87,6 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 ## 팀원
   | 팀원                            | 역할                                       |
 | ----------------------------- | ---------------------------------------- |
-| [문정민]() |    data preprocess, inference 코드 정리    |
+| [문정민](https://github.com/strn18) |    data preprocess, inference 코드 정리    |
 | [조윤지](https://github.com/robosun78)     |    모델 finetuning, evaluation    |
 | [정다현](https://github.com/dhyun22)        |    모델 pretraining, gradio 데모   |
