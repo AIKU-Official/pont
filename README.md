@@ -74,7 +74,7 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 - 결과 분석
     - Input Text: 모서리에 부딪힌 나는 아이쿠 아파라 라고 말했다
     - Input Style:
-      ![image](https://github.com/user-attachments/assets/303980db-fe2c-4a4b-a5da-897fa4d22246) 
+      </br>![image](https://github.com/user-attachments/assets/303980db-fe2c-4a4b-a5da-897fa4d22246) 
     - 출력:
       ![image](https://github.com/user-attachments/assets/055fc4ed-6baf-4b4a-9f26-7226e340eea3)
         
