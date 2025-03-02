@@ -1,0 +1,37 @@
+MODEL:
+  STYLE_ENCODER_LAYERS: 3
+  NUM_IMGS: 15
+  IN_CHANNELS: 4
+  OUT_CHANNELS: 4
+  NUM_RES_BLOCKS: 1
+  NUM_HEADS: 4
+  EMB_DIM: 512
+SOLVER:
+  BASE_LR: 0.00001
+  EPOCHS: 20
+  WARMUP_ITERS: 20000
+  TYPE: AdamW  # TODO, support optional optimizer
+  GRAD_L2_CLIP: 5.0
+TRAIN:
+  TYPE: train
+  IMS_PER_BATCH: 8
+  SNAPSHOT_BEGIN: 0
+  SNAPSHOT_ITERS: 3
+  VALIDATE_BEGIN: 0
+  VALIDATE_ITERS: 3
+  SEED: 1001
+  IMG_H: 64
+  IMG_W: 64
+TEST:
+  TYPE: test
+  IMS_PER_BATCH: 8
+  IMG_H: 64
+  IMG_W: 64
+DATA_LOADER:
+  NUM_THREADS: 8
+  IAMGE_PATH: /home/aikusrv04/pont/jeongmin/images/Korean_2
+  STYLE_PATH: /home/aikusrv04/pont/jeongmin/images/Korean_2
+  LAPLACE_PATH: /home/aikusrv04/pont/jeongmin/images/Korean_2_laplace
+OUTPUT_DIR: /home/aikusrv04/pont/One-DM/ckpt_temp
+
+
