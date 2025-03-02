@@ -1,4 +1,4 @@
-# Personalized Font
+# Pont(Personalized Font)
 
 📢 2025년 겨울학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
 </br>🎉 2025년 겨울학기 AIKU Conference 열심히상 수상!
