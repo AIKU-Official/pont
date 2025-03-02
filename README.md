@@ -41,6 +41,10 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
   ```
 
 ## 사용 방법
+### 0. 모델 체크포인트 다운로드
+- [구글 드라이브](https://drive.google.com/drive/folders/1ozXdHYltBdBwAfijK-rD4ESfh3XqXvBE?usp=drive_link)에서 **final_model.pt** 다운로드
+- **model/ckpt** 폴더에 **final_model.pt** 저장
+
 ### 1. gradio demo로 실행하는 경우
 - **app.py** 파일 실행
 - Running on local URL:  http://127.0.0.1:7860
@@ -69,11 +73,9 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
     - Input Text: 모서리에 부딪힌 나는 아이쿠 아파라 라고 말했다
     - Input Style:
         
-        ![image.png](attachment:ab2e1e62-de03-4e4b-b3f9-a4f66b6f3d66:image.png)
         
     - 출력:
         
-        ![image.png](attachment:910858e9-da51-4729-b036-94ec8d3c57af:image.png)
         
     - 각 음절별로 따로 forward 한 뒤 결과 이미지(128*128)를 이어 붙임
     - 공백(띄어쓰기)은 (128*64)의 흰색 이미지를 따로 만들어서 이어 붙임
