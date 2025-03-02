@@ -64,7 +64,9 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
    ```
     CUDA_VISIBLE_DEVICES=0 python inference.py \
       --one_dm model/ckpt/final_model.pt \
-      --input_sentence '아이쿠 한국어 손글씨 생성 프로젝트' --style_path demo/style.png --output_path output
+      --input_sentence '아이쿠 한국어 손글씨 생성 프로젝트' \
+      --style_path demo/style.png \
+      --output_path output
    ```
 
 
@@ -90,6 +92,6 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 ## 팀원
   | 팀원                            | 역할                                       |
 | ----------------------------- | ---------------------------------------- |
-| [문정민](https://github.com/strn18) |    data preprocess, inference 코드 정리    |
+| [문정민](https://github.com/strn18) |    data preproccess, inference 코드 정리    |
 | [조윤지](https://github.com/robosun78)     |    모델 finetuning, evaluation    |
 | [정다현](https://github.com/dhyun22)        |    모델 pretraining, gradio 데모   |
