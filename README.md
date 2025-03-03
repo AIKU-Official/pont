@@ -50,10 +50,9 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 
 ### 1. gradio demo로 실행하는 경우
 - **app.py** 파일 실행
-- Running on local URL:  http://127.0.0.1:7860
-- Running on public URL: https://e201fae01ebf502647.gradio.live
-- 터미널에서 위의 두 링크 중 아무거나 접속 한 뒤
-- Do you want code to open the external website 경고창이 뜨면 OK 클릭
+- 터미널에서 아래 두 링크 중 아무거나 접속 한 뒤
+     -Running on local URL:  http://127.0.0.1:7860
+     -Running on public URL: https://e201fae01ebf502647.gradio.live
 - 브라우저에서 아래와 같은 창이 뜨면 손글씨 style 이미지 한 장과 text 입력하여 데모 사용 가능
 ![image](https://github.com/user-attachments/assets/99a44fec-555f-4d32-b736-9881071cb088)
 
@@ -86,7 +85,6 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
     - 공백(띄어쓰기)은 (128*64)의 흰색 이미지를 따로 만들어서 이어 붙임
     - 같은 음절(아, 라)이어도 조금씩 다른 이미지가 생성됨 → variation 확보 성공
     - 진짜 손글씨처럼 삐뚤빼뚤한 이미지 생성 성공
-    - 하지만 Input Style의 손글씨 스타일을 잘 담지는 못함
 - 양적 분석
     - 평가 지표는 Fréchet Inception Distance(FID)를 사용: 데이터셋의 실제 정답 이미지와 생성된 이미지의 유사도를 계산 (낮을수록 good)
       
@@ -98,6 +96,7 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 
 
 ## 팀원
+![Image](https://github.com/user-attachments/assets/8f74f19f-7f41-42e0-bd0c-3696984fe9d9)
   | 팀원                            | 역할                                       |
 | ----------------------------- | ---------------------------------------- |
 | [문정민](https://github.com/strn18) |    data preproccess, inference 코드 정리    |
