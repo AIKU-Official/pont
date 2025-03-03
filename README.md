@@ -89,10 +89,11 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
     - 하지만 Input Style의 손글씨 스타일을 잘 담지는 못함
 - 양적 분석
     - 평가 지표는 Fréchet Inception Distance(FID)를 사용: 데이터셋의 실제 정답 이미지와 생성된 이미지의 유사도를 계산 (낮을수록 good)
+      
         |  | 12 | 13 |
         | --- | --- | --- |
+        | finetune(50k) | 227.07 | 225.44 |      
         | pretrain(50k) | 138.18 | 134.56 |
-        | finetune(50k) | 227.07 | 225.44 |
         | pretrain(120k) | 141.37 | 142.17 |
 
 
