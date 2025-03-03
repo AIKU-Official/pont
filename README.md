@@ -51,8 +51,8 @@ git clone 이후 아래 코드를 실행하여 dependency들을 설치
 ### 1. gradio demo로 실행하는 경우
 - **app.py** 파일 실행
 - 터미널에서 아래 두 링크 중 아무거나 접속 한 뒤
-     -Running on local URL:  http://127.0.0.1:7860
-     -Running on public URL: https://e201fae01ebf502647.gradio.live
+     - Running on local URL:  http://127.0.0.1:7860
+     - Running on public URL: https://e201fae01ebf502647.gradio.live
 - 브라우저에서 아래와 같은 창이 뜨면 손글씨 style 이미지 한 장과 text 입력하여 데모 사용 가능
 ![image](https://github.com/user-attachments/assets/99a44fec-555f-4d32-b736-9881071cb088)
 
